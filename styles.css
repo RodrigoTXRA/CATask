@@ -21,14 +21,8 @@ body {
     color: rgb(131,148,150);
   }
 
-a {
-    color: rgb(211, 54,130);
 
-}
-a:hover {
-    color: rgb(255, 140,0);
 
-}
 div.solid {
     border-style: solid;
     color:rgb(42,161,152);
@@ -43,10 +37,28 @@ p.subsection{
     color:white;
 }
 
+
 nav{
     text-align: center;
     font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;    
 }
+nav a{
+    color:rgb(211, 54,130);
+}
+nav a:hover {
+    color: rgb(255, 140,0);
+
+}
+
+aside{
+    color: rgb(133,153,0);
+}
+
+
+
 
 /*
 :root {
