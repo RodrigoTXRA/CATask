@@ -39,8 +39,13 @@ h3{
     color:white;
 }
 
-p{
+p.subsection{
     color:white;
+}
+
+nav{
+    text-align: center;
+    font-size: 150%;
 }
 
 /*
